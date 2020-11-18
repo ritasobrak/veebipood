@@ -1,0 +1,120 @@
+@media (max-width: 576px) {
+  .menu-header > li > a:first-child {
+    font-size: calc(2vw + 1vh + 0.5vmin);
+    margin: 0 6px;
+  }
+
+  .logo b {
+    display: none;
+  }
+
+  .product-info h3 {
+    font-size: 18px;
+  }
+
+  .hero-image {
+    height: 40vh;
+  }
+
+  .logo svg {
+    width: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  body h1 {
+    font-size: 25px;
+  }
+
+  .hero-image {
+    top: 50px;
+  }
+
+  #checkout, 
+  #product-view,
+  #success {
+      margin-top: 10%;
+  }
+
+
+  /* CONTACT PAGE */
+  .contact-info_left,
+  .contact-info_right {
+    width: 100%;
+  }
+  .contact-info {
+    flex-direction: column;
+  }
+  iframe {
+    width: 100%;
+  }
+
+  /* CHECKOUT FORM AND SUCCESS PAGE */
+
+  .fields {
+    flex-direction: column;
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+  .success-card {
+    width: 100%;
+  }
+
+  /*FOOTER */
+  .column {
+    width: 100%;
+  }
+
+  .footer-contact {
+    border-bottom: 1px solid #ff9800;
+    border-right: none;
+  }
+
+  .footer-contact p:nth-child(4) {
+    margin-bottom: 40px;
+  }
+
+  /* CLOTHING CARDS */
+  .product-card {
+    flex-basis: 40%;
+    flex-grow: 2;
+  }
+
+  /*PRODUCT VIEW */
+  .product-content {
+    flex-direction: column;
+  }
+
+  .product-content-box {
+    width: 100%;
+  }
+
+
+  /* ABOUT PAGE */
+
+  .about-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* NEWS PAGE */
+  .news-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* HOME PAGE */
+
+  .home-cards .cards {
+    flex-direction: column;
+  }
+
+  .gifting button {
+    width: 100%;
+  }
+
+  .gifting {
+    flex-direction: column;
+    padding: 0 25px;
+  }
+}
