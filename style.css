@@ -48,11 +48,6 @@ h5 {
   line-height: 20px;
 }
 
-h6 {
-  font-size: 12px;
-  line-height: 20px;
-}
-
 p {
   font-size: 1rem;
   font-weight: 600;
@@ -163,7 +158,7 @@ svg {
 
 .logo {
   display: block;
-  margin-right: auto !important;
+  margin-right: auto;
   font-size: 22px;
 }
 
@@ -185,7 +180,7 @@ nav.sticky {
   margin: 0;
   padding: 10px;
   display: flex;
-  flex-direction: row !important;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -194,7 +189,7 @@ nav.sticky {
   text-decoration: none;
   font-size: 20px;
   margin: 0 12px;
-  margin-left: auto !important;
+  margin-left: auto;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -285,18 +280,18 @@ nav.sticky {
   object-fit: cover;
 }
 
-.cart_box a {
+.cart-box a {
   display: block;
 }
 
-.cart_box {
+.cart-box {
   color: #000;
   font-size: 0.8rem;
   font-weight: 500;
   margin-top: 10px;
 }
 
-.cart_box span.actual {
+.cart-box span.actual {
   font-weight: 500;
 }
 
@@ -321,10 +316,6 @@ nav.sticky {
   background: black;
   margin: 10px 0 0;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.checkout a:hover {
-  background-color: black;
 }
 
 .hero-image {
@@ -463,7 +454,7 @@ nav.sticky {
 
 .about-info img {
   width: 100%;
-  margin-bottom: 0px !important;
+  margin-bottom: 0px;
   height: 500px;
   object-fit: cover;
   -webkit-transform: scale(1);
@@ -485,9 +476,6 @@ nav.sticky {
   flex-wrap: wrap;
 }
 
-#products button {
-  width: 95%;
-}
 .men-title,
 .women-title {
   width: 100%;
@@ -507,7 +495,7 @@ nav.sticky {
 .selectbox select {
   background-color: #ff967d;
   width: 22%;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif;
   min-width: 152px;
 }
 
@@ -566,9 +554,15 @@ nav.sticky {
   display: flex;
 }
 
-iframe {
+.contact-info iframe {
   width: 90%;
   height: 450px;
+}
+
+.contact-info table {
+  margin: 0 auto;
+  line-height: 30px;
+  padding-bottom: 30px;
 }
 
 .contact-info_left,
@@ -576,17 +570,7 @@ iframe {
   width: 50%;
 }
 
-.contact-info h3 {
-  text-align: center;
-  text-shadow: 2px 4px 1px #ff967d;
-}
-
-table {
-  margin: 0 auto;
-  line-height: 30px;
-  padding-bottom: 30px;
-}
-.contact-info_left table td:first-child {
+.contact-info_right table td:first-child {
   font-weight: bold;
   text-align: right;
   padding-right: 5px;
@@ -615,13 +599,18 @@ table {
   display: block;
   font-weight: bold;
 }
+
+input[type="text"],
+input[type="email"] {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
 .form-style input[type="text"],
-.form-style input[type="date"],
-.form-style input[type="datetime"],
-.form-style input[type="number"],
-.form-style input[type="search"],
-.form-style input[type="time"],
-.form-style input[type="url"],
 .form-style input[type="email"],
 textarea,
 select {
@@ -638,12 +627,6 @@ select {
   outline: none;
 }
 .form-style input[type="text"]:focus,
-.form-style input[type="date"]:focus,
-.form-style input[type="datetime"]:focus,
-.form-style input[type="number"]:focus,
-.form-style input[type="search"]:focus,
-.form-style input[type="time"]:focus,
-.form-style input[type="url"]:focus,
 .form-style input[type="email"]:focus,
 .form-style textarea:focus,
 .form-style select:focus {
@@ -700,7 +683,7 @@ select {
 }
 
 .product-description h1 {
-  text-align: left !important;
+  text-align: left;
 }
 
 hr {
@@ -739,32 +722,10 @@ label {
   vertical-align: top;
   min-width: 250px;
 }
-input[type="text"] {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-.icon-formContainer {
-  margin-bottom: 20px;
-  padding: 7px 0;
-  font-size: 24px;
-}
 
 .formContainer hr {
   margin-bottom: 120px;
   margin-top: 30px;
-}
-
-a {
-  color: black;
-}
-span.price {
-  float: right;
-  color: grey;
 }
 
 /* SUCCESS PAGE */

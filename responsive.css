@@ -30,12 +30,11 @@
     top: 50px;
   }
 
-  #checkout, 
+  #checkout,
   #product-view,
   #success {
-      margin-top: 10%;
+    margin-top: 10%;
   }
-
 
   /* CONTACT PAGE */
   .contact-info_left,
@@ -45,7 +44,7 @@
   .contact-info {
     flex-direction: column;
   }
-  iframe {
+  .contact-info iframe {
     width: 100%;
   }
 
@@ -90,7 +89,6 @@
   .product-content-box {
     width: 100%;
   }
-
 
   /* ABOUT PAGE */
 
